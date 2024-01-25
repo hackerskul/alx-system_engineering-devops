@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#using the case instead od if
 while ((i <= 20))
 do
 	case $i in

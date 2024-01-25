@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#usinf while loop 10x
 while ((i <= 9))
 do
 	echo "Best School"

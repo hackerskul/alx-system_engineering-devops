@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#print hours and mins
 i=0
 while ((i <= 14))
 do
