@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 #print hours and mins
-i=0
-while ((i <= 14))
+hour=0
+while [ $hour -le 12 ]
 do
-	echo "Hour: $i"
-	while ((j <= 59))
+	echo "Hour: $hour"
+	minute=1
+	while [ $minute -le 59 ]
 	do
-		echo "$j"
-		((j++))
+		echo "$minute"
+		(( minute++ ))
 	done
-	((i++))
-	((j = 1))
+	(( hour++ ))
 done

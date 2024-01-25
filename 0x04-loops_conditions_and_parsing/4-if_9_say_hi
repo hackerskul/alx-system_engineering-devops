@@ -6,7 +6,7 @@ do
 	then
 		echo "Hi"
 	else
-		echo "$i"
+		echo "Best School"
 	fi
 	((i++))
 done
