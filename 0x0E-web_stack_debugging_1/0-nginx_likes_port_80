@@ -2,7 +2,6 @@
 
 #fix nginx listening on port 80
 
-#go to site-enabled folder for nginx
 cd /etc/nginx/sites-enabled/ || exit;
 #go to the sites-enabled folder
 
