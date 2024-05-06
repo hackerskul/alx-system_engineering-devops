@@ -4,14 +4,15 @@
 
 #go to site-enabled folder for nginx
 cd /etc/nginx/sites-enabled/ || exit;
+#go to the sites-enabled folder
 
-#delete the default file
 rm default;
+#remove the default file
 
-#create a symbolic link to the default file in sites available
 ln -s /etc/nginx/sites-available/default default;
+#create a symbolic link
 
-#nginx restart
-service nginx restart
+service nginx restart;
+#restart nginx server
 
 
