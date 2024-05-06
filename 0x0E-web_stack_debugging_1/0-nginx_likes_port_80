@@ -3,19 +3,15 @@
 #fix nginx listening on port 80
 
 #go to site-enabled folder for nginx
-
 cd /etc/nginx/sites-enabled/ || exit;
 
 #delete the default file
-
 rm default;
 
 #create a symbolic link to the default file in sites available
-
 ln -s /etc/nginx/sites-available/default default;
 
 #nginx restart
-
 service nginx restart
 
 
